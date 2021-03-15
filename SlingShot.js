@@ -17,7 +17,7 @@ class SlingShot{
 
     attach()
     {
-        Sling = new SlingShot(ball.body,{x:200,y:200});
+        Sling = new SlingShot(this.ball,{x:200,y:200});
     }
 
     display(){
