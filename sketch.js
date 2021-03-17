@@ -34,46 +34,46 @@ function setup(){
     ground2 = new Ground(967,200,270,15);
 
     // Blocks
-    block1 = new Block(530,235,30,40);
-    block2 = new Block(560,235,30,40);
-    block3 = new Block(590,235,30,40);
-    block4 = new Block(620,235,30,40);
-    block5 = new Block(650,235,30,40);
-    block6 = new Block(680,235,30,40);
-    block7 = new Block(710,235,30,40);
+    block1 = new Block(530,290,30,40);
+    block2 = new Block(560,290,30,40);
+    block3 = new Block(590,290,30,40);
+    block4 = new Block(620,290,30,40);
+    block5 = new Block(650,290,30,40);
+    block6 = new Block(680,290,30,40);
+    block7 = new Block(710,290,30,40);
     
-    block8 = new Block(560,195,30,40);
-    block9 = new Block(590,195,30,40);
-    block10 = new Block(620,195,30,40);
-    block11 = new Block(650,195,30,40);
-    block12 = new Block(680,195,30,40);
+    block8 = new Block(560,220,30,40);
+    block9 = new Block(590,220,30,40);
+    block10 = new Block(620,220,30,40);
+    block11 = new Block(650,220,30,40);
+    block12 = new Block(680,220,30,40);
 
-    block13 = new Block(590,155,30,40);
-    block14 = new Block(620,155,30,40);
-    block15 = new Block(650,155,30,40);
+    block13 = new Block(590,180,30,40);
+    block14 = new Block(620,180,30,40);
+    block15 = new Block(650,180,30,40);
 
-    block16 = new Block(620,115,30,40);
+    block16 = new Block(620,150,30,40);
 
     // Platform 2
-    block17 = new Block(877,135,30,40);
-    block18 = new Block(907,135,30,40);
-    block19 = new Block(937,135,30,40);
-    block20 = new Block(967,135,30,40);
-    block21 = new Block(997,135,30,40);
-    block22 = new Block(1027,135,30,40);
-    block23 = new Block(1057,135,30,40);
+    block17 = new Block(877,190,30,40);
+    block18 = new Block(907,190,30,40);
+    block19 = new Block(937,190,30,40);
+    block20 = new Block(967,190,30,40);
+    block21 = new Block(997,190,30,40);
+    block22 = new Block(1027,190,30,40);
+    block23 = new Block(1057,190,30,40);
 
-    block24 = new Block(907,95,30,40);
-    block25 = new Block(937,95,30,40);
-    block26 = new Block(967,95,30,40);
-    block27 = new Block(997,95,30,40);
-    block28 = new Block(1027,95,30,40);
+    block24 = new Block(907,120,30,40);
+    block25 = new Block(937,120,30,40);
+    block26 = new Block(967,120,30,40);
+    block27 = new Block(997,120,30,40);
+    block28 = new Block(1027,120,30,40);
 
-    block29 = new Block(937,55,30,40);
-    block30 = new Block(967,55,30,40);
-    block31 = new Block(997,55,30,40);
+    block29 = new Block(937,80,30,40);
+    block30 = new Block(967,80,30,40);
+    block31 = new Block(997,80,30,40);
 
-    block32 = new Block(967,15,30,40);
+    block32 = new Block(967,50 ,30,40);
 
 
     // Polygon
@@ -85,7 +85,7 @@ function setup(){
 
     // Slingshot
     //Sling = new SlingShot(polygon.body,{x:200,y:200});
-    Sling = new SlingShot(this.ball,{x:100,y:200});
+    Sling = new SlingShot(this.ball,{x:200,y:200});
 }
 
 function draw(){
